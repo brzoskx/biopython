@@ -33,7 +33,7 @@ jobs:
       - name: Clone code
         shell: bash
         run: |
-          git clone https://github.com/brzoskx/biopython_mfork.git
+          git clone https://github.com/brzoskx/biopython.git
       - name: Build biopython
         shell: bash
         run: | 
