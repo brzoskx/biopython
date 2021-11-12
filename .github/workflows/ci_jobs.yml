@@ -37,9 +37,9 @@ jobs:
       - name: Build biopython
         shell: bash
         run: | 
-          cd biopython_mfork && python3.9 setup.py build
+          cd biopython && python3.9 setup.py build
       - name: Run tests
         shell: bash
         run: | 
-           cd biopython_mfork && python3.9 setup.py test --offline
+           cd biopython && python3.9 setup.py test --offline
      
